@@ -1,5 +1,5 @@
 - dashboard: dates_fortmat_lookml_dashboards
-  title: lookmldashboard
+  title: dates_fortmat_lookml_dashboard
 
   layout: newspaper
   preferred_viewer: dashboards-next
