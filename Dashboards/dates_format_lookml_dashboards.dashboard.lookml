@@ -1,20 +1,19 @@
 - dashboard: dates_fortmat_lookml_dashboards
   title: dates_fortmat_lookml_dashboard
-
   layout: newspaper
   preferred_viewer: dashboards-next
-  preferred_slug: GgJIXL41r1l7DHnCbNNl5F
+  preferred_slug: EXXE5bsOoaaGhovqASI2az
   elements:
   - title: dates_format
     name: dates_format
-    model: test_isidro
+    model: isidro_the_look
     explore: orders
     type: table
-    fields: [orders.test, orders.test_date_format2, orders.test_date_format1, orders.time_stamp,
-      orders.test_date]
-    sorts: [orders.test]
+    fields: [orders.prior_month_label, orders.test, orders.test_date, orders.test_date_format1,
+      orders.test_date_format2, orders.time_stamp]
+    sorts: [orders.prior_month_label]
     limit: 500
-    query_timezone: America/Los_Angeles
+    column_limit: 50
     listen: {}
     row:
     col:
