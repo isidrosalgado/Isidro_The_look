@@ -1,5 +1,5 @@
-- dashboard: order_analysis
-  title: order_analysis
+- dashboard: dates_fortmat_lookml_dashboards
+  title: lookmldashboard
 
   layout: newspaper
   preferred_viewer: dashboards-next
