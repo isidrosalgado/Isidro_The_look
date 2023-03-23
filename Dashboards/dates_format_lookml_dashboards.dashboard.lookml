@@ -1,5 +1,6 @@
 - dashboard: dates_fortmat_lookml_dashboards
   title: dates_fortmat_lookml_dashboard
+  description: "desxripcion dentro del lookml dashboard"
   layout: newspaper
   preferred_viewer: dashboards-next
   preferred_slug: EXXE5bsOoaaGhovqASI2az
