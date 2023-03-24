@@ -2,7 +2,7 @@
   title: dates_format
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: This is a description inside the lookml_dashboard
+  description: "This is a description inside the lookml_dashboard"
   preferred_slug: EXXE5bsOoaaGhovqASI2az
   elements:
   - title: dates_format
