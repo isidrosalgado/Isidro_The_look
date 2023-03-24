@@ -1,22 +1,35 @@
-- dashboard: dates_fortmat_lookml_dashboards
-  title: dates_fortmat_lookml_dashboard
-  description: "description inside the lookml_dashboard"
+- dashboard: dates_format_lookml_dashboards
+  title: dates_format_lookml_dashboards
   layout: newspaper
   preferred_viewer: dashboards-next
-  preferred_slug: EXXE5bsOoaaGhovqASI2az
+  tile_size: 100
+
+  filters:
+
   elements:
-  - title: dates_format
-    name: dates_format
+  - name: Salaries
+    title: Untitled Visualization
     model: isidro_the_look
-    explore: orders
-    type: table
-    fields: [orders.prior_month_label, orders.test, orders.test_date, orders.test_date_format1,
-      orders.test_date_format2, orders.time_stamp]
-    sorts: [orders.prior_month_label]
+    explore: salary
+    type: looker_grid
+    fields: [dept.dept_name, salary.salary, salary.average_salary]
+    sorts: [salary.average_salary desc 0]
     limit: 500
-    column_limit: 50
-    listen: {}
-    row:
-    col:
-    width:
-    height:
+    show_view_names: false
+    show_row_numbers: true
+    transpose: false
+    truncate_text: true
+    hide_totals: false
+    hide_row_totals: false
+    size_to_fit: true
+    table_theme: editable
+    limit_displayed_rows: false
+    enable_conditional_formatting: false
+    header_text_alignment: left
+    header_font_size: 12
+    rows_font_size: 12
+    conditional_formatting_include_totals: false
+    conditional_formatting_include_nulls: false
+    truncate_column_names: false
+    defaults_version: 1
+    series_types: {}
