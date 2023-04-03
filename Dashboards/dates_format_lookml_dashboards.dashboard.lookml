@@ -2,7 +2,7 @@
   title: dates_format
   layout: newspaper
   preferred_viewer: dashboards-next
-  description: 'my description'
+  description: 'My description'
   preferred_slug: EXXE5bsOoaaGhovqASI2az
   elements:
   - title: dates_format
